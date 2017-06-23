@@ -8,6 +8,7 @@ inputs:
     number:
       constraints: { format: integer, minimum: 0 }
       description: minimum percent coverage
+version: 1.0.0
 run:
   container:
     cmd: [ /cmd.sh ]
