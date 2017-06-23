@@ -22,13 +22,13 @@ while read -r line; do
       total_hits=$total_hits+$line_statements
     fi
   fi
-done < /profile
+done < /coverprofile
 
 coverage=$(($total_hits*100 / $total_statements))
-echo "Coverage info => Actual: $coverage%, Expected: >= $min%"
+echo "Coverage info => Actual: $coverage%, Expected: >= $minCoverage%"
 
 # enforce minCoverage
-if [[ $coverage -lt $min ]] ;
+if [[ $coverage -lt $minCoverage ]] ;
 then
   echo "Insufficient test coverage!" 1>&2
   exit 1
