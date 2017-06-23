@@ -1,10 +1,10 @@
 name: github.com/opspec-pkgs/golang.coverprofile.assert
 description: asserts a golang coverprofile meets min coverage
 inputs:
-  profile:
+  coverprofile:
     file:
       description: the golang coverprofile to process
-  min:
+  minCoverage:
     number:
       constraints: { format: integer, minimum: 0 }
       description: minimum percent coverage
@@ -13,8 +13,8 @@ run:
   container:
     cmd: [ /cmd.sh ]
     envVars:
-      min:
+      minCoverage:
     files:
       /cmd.sh:
-      /profile: profile
+      /coverprofile: coverprofile
     image: { ref: 'opspecpkgs/golang.coverprofile.assert:1.0.0' }
