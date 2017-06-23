@@ -25,5 +25,4 @@ op:
   inputs: 
     profile:
     min:
-  outputs: { bin }
 ```
