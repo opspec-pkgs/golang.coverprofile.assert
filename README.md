@@ -23,6 +23,6 @@ opctl run github.com/opspec-pkgs/golang.coverprofile.assert#VERSION
 op:
   pkg: { ref: github.com/opspec-pkgs/golang.coverprofile.assert#VERSION }
   inputs: 
-    profile:
-    min:
+    coverprofile:
+    minCoverage:
 ```
