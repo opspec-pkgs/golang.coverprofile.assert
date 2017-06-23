@@ -1,5 +1,5 @@
 name: github.com/opspec-pkgs/golang.coverprofile.assert
-description: builds a binary from golang src code
+description: asserts a golang coverprofile meets min coverage
 inputs:
   profile:
     file:
