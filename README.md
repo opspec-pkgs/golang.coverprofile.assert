@@ -1,8 +1,8 @@
 # Problem statement
 asserts a golang coverprofile meets min coverage
 
-> note: in usage, VERSION represents a version of the golang.coverprofile.assert pkg
-# Usage
+# Example usage
+> note: in examples, VERSION represents a version of the golang.coverprofile.assert pkg
 
 ## install
 
