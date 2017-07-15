@@ -1,7 +1,7 @@
-# problem statement
+# Problem statement
 asserts a golang coverprofile meets min coverage
 
-# example usage
+# Example usage
 
 > note: in examples, VERSION represents a version of the golang.coverprofile.assert pkg
 
@@ -26,3 +26,8 @@ op:
     coverprofile:
     minCoverage:
 ```
+
+# Support
+
+join us on [![Slack](https://opspec-slackin.herokuapp.com/badge.svg)](https://opspec-slackin.herokuapp.com/)
+or [open an issue](https://github.com/opspec-pkgs/golang.coverprofile.assert/issues)
