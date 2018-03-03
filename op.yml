@@ -16,5 +16,5 @@ run:
       minCoverage:
     files:
       /cmd.sh:
-      /coverprofile: coverprofile
+      /coverprofile: $(coverprofile)
     image: { ref: 'opspecpkgs/golang.coverprofile.assert:1.0.0' }
