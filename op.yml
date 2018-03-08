@@ -8,7 +8,7 @@ inputs:
     number:
       constraints: { format: integer, minimum: 0 }
       description: minimum percent coverage
-version: 1.0.0
+version: 1.1.0
 run:
   container:
     cmd: [ /cmd.sh ]
@@ -17,4 +17,4 @@ run:
     files:
       /cmd.sh:
       /coverprofile: $(coverprofile)
-    image: { ref: 'opspecpkgs/golang.coverprofile.assert:1.0.0' }
+    image: { ref: 'opspecpkgs/golang.coverprofile.assert:1.1.0' }
